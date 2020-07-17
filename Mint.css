@@ -17,7 +17,7 @@ footer,
 ul,
 li,
 a {
-  color: #757575;
+  color: green;
   padding-right: 5px;
 }
 
@@ -59,7 +59,7 @@ header button:hover {
   background-color: green;
 }
 
-section {
+main {
   display: block;
   box-shadow: none;
   text-align: center;
@@ -79,7 +79,7 @@ form {
 }
 
 form h2 {
-  color: #4c4c4c;
+  color: darkgrey;
   font-weight: 400;
   line-height: 1.1;
   font-size: 24px;
@@ -91,7 +91,6 @@ form p {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.2;
-  font-family: "AvenirNext ", Avenir, " Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 form a {
@@ -109,7 +108,6 @@ form label {
   color: #404040;
   font-size: 14px;
   line-height: 25px;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 form input {
@@ -142,7 +140,6 @@ footer {
 footer p {
   margin-bottom: -20px;
   color: #757575;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-style: italic;
@@ -150,12 +147,11 @@ footer p {
 
 .footer-form a {
   text-align: left;
-  color: #0077c5;
+  color: blue;
 }
 
 .footer-form span {
   color: #757575;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-style: italic;
@@ -164,16 +160,14 @@ footer p {
 .container,
 .captcha p {
   outline: none;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
-  font-weight: normal;
+  font-weight: bolder;
   line-height: 1.5;
 }
 
 .container .captcha a {
   height: 20px;
   outline: none;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: normal;
   line-height: 1.5;
@@ -185,7 +179,7 @@ footer p {
   margin-left: -30px;
   margin-bottom: -29px;
   width: 410px;
-  background-color: #eceef1;
+  background-color: gray;
 }
 
 .end-page ul {
