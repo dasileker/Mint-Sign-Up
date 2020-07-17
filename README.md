@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML FORM document
 
-![screenshot](assets/intuitsc.png)
+![screenshot](assets/screenshot.png)
 
 
 # Build by
