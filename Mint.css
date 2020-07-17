@@ -1,197 +1,195 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #ECEEF1;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #eceef1;
+  box-sizing: border-box;
 }
 
-header{
-    box-sizing: border-box;
+header {
+  box-sizing: border-box;
 }
 
-header p{
-    display: block;
-    float: right;
-    margin: auto;
-    padding-top: 10px;
+header p {
+  display: block;
+  float: right;
+  margin: auto;
+  padding-top: 10px;
 }
 
-header button{
-    color: white;
-    float: right;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 20px;
-    border-radius: 5px;
-    border: 1px solid #4c4c4c;
-    width: 90px;
-    height: 40px;
-    background: #0077C5;
+header button {
+  color: white;
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #4c4c4c;
+  width: 90px;
+  height: 40px;
+  background: #0077c5;
 }
 
-header button:hover{
-    background-color:green;
+form button {
+  border: 1px solid #c1c5c8;
+  height: 44px;
+  width: 340px;
+  min-width: 160px;
+  margin-top: 30px;
+  padding-left: 9px;
+  padding-right: 6px;
+  background: #0077c5;
+  color: white;
+  outline: none;
+  font-size: 1.2em;
+  -webkit-border-radius: 3px;
+  border-radius: 4px;
+  line-height: 1.3em;
+}
+
+header button:hover {
+  background-color: green;
 }
 
 section {
-    display: block;
-    box-shadow: none;
-    text-align: center;
-    padding-top: 80px;
-    background-color: none;
+  display: block;
+  box-shadow: none;
+  text-align: center;
+  padding-top: 80px;
 }
 
-form{
-    margin: auto;
-    padding: 30px;
-    overflow: visible;
-    width: 380px;
-    display: block;
-    border: 1px solid #c7c7c7;
-    border-radius: 2px;
-    background: white;
-    width: 350px;
-    height: auto;
+form {
+  margin: auto;
+  padding: 30px;
+  overflow: visible;
+  width: 350px;
+  display: block;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  background: white;
+  height: auto;
 }
 
-form h2{
-    color: #4C4C4C;
-    font-weight: 400;
-    line-height: 1.1;
-    font-size: 24px;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+form h2 {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-form p{
-    color: #4C4C4C; font-size: 14px; font-weight: 300; line-height: 1.2; font-family: AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;"
+form p {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: "AvenirNext ", Avenir, " Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-form a{
-    margin-top: -2px;
-    color: #0077C5; font-size: 12px;
+form a {
+  margin-top: -2px;
+  color: #0077c5;
+  font-size: 12px;
 }
 
-form label{
-    display: block;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 32px;
-    font-weight: normal;
-    color: #404040;
-    font-size: 14px;
-    line-height: 25px;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+form label {
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: normal;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-form input{
-    border: 1px solid #C1C5C8;
-    height: 34px;
-    width: 320px;
-    min-width: 160px;
-    margin-top: -30px;
-    padding-left: 9px;
-    padding-right: 6px;
-    border: 1px solid #d8d8d8;
-    color: #000000;
-    outline: none;
-    font-size: 1.2em;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    line-height: 1.3em;
+form input {
+  border: 1px solid #c1c5c8;
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  margin-top: -30px;
+  padding-left: 9px;
+  padding-right: 6px;
+  color: #000;
+  outline: none;
+  font-size: 1.2em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  line-height: 1.3em;
 }
 
-form button{
-    border: 1px solid #C1C5C8;
-    height: 44px;
-    width: 340px;
-    min-width: 160px;
-    margin-top: 30px;
-    padding-left: 9px;
-    padding-right: 6px;
-    border: 1px solid #d8d8d8;
-    background: #0077C5;
-    color: white;
-    outline: none;
-    font-size: 1.2em;
-    -webkit-border-radius: 3px;
-    border-radius: 4px;
-    line-height: 1.3em;
+form button:hover {
+  background-color: green;
 }
 
-form button:hover{
-    background-color: green;
+footer {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 70px;
+  padding: 0;
+  outline: none;
 }
 
-footer{
-    display: block;
-    box-sizing: border-box;
-    margin-top: 70px;
-    padding: 0;
-    outline: none;
+footer p {
+  margin-bottom: -20px;
+  color: #757575;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
 }
 
-footer
-p{
-    margin-bottom: -20px;
-    color: #757575;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: italic;
+.footer-form a {
+  text-align: left;
+  color: #0077c5;
 }
 
-.footer-form
-a{
-    text-align: left;
-    color: #0077C5;
-}
-
-.footer-form span{
-    color: #757575;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: italic;
+.footer-form span {
+  color: #757575;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
 }
 
 .container,
 .captcha p {
-    box-sizing: border-box;
-    outline: none;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.5;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
-.container
-.captcha a{
-    box-sizing: border-box;
-    outline: none;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.5;
+.container .captcha a {
+  box-sizing: border-box;
+  outline: none;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
-.container, 
-.captcha{
-    margin-top: 70px;
-    margin-left: -30px;
-    margin-bottom: -30px;
-    width: 410px;
-    background-color: #ECEEF1;;
+.container,
+.captcha {
+  margin-top: 70px;
+  margin-left: -30px;
+  margin-bottom: -30px;
+  width: 410px;
+  background-color: #eceef1;
 }
 
-.end-page ul{
-    list-style-type: none;
-    display: inline;
+.end-page ul {
+  list-style-type: none;
+  display: inline;
 }
 
-.end-page ul, li{
-    margin-left: 10px;
-    padding-left: 10px;
-    text-align: center;
-    color: #505050;
+.end-page ul,
+li {
+  margin-left: 10px;
+  padding-left: 10px;
+  text-align: center;
+  color: #505050;
 }
-
