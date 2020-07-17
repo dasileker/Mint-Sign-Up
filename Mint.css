@@ -164,6 +164,7 @@ footer p {
 }
 
 .container .captcha a {
+  height: 20px;
   box-sizing: border-box;
   outline: none;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -176,7 +177,7 @@ footer p {
 .captcha {
   margin-top: 70px;
   margin-left: -30px;
-  margin-bottom: -30px;
+  margin-bottom: -29px;
   width: 410px;
   background-color: #eceef1;
 }
