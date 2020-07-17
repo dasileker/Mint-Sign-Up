@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML FORM document
 
-![screenshot](assets/intuitSC.png)
+![screenshot](assets/intuitsc.png)
 
 
 # Build by
@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/dasileker/Mint-Sign-Up/071530a4601d00887dd3cfd8b526936f8b5caf7a/Mint.html)
+[Live Demo Link](https://rawcdn.githack.com/dasileker/Mint-Sign-Up/3dbe2dc80664a0e74036bbd54c049339f017c32a/Mint.html)
 
 
 
