@@ -76,7 +76,7 @@ main {
 .link ul li img {
   width: 30px;
   height: 30px;
-  margin-top: 5px;
+  margin-top: 2px;
   padding-top: 2px;
 }
 
@@ -178,15 +178,6 @@ footer p {
   font-style: italic;
 }
 
-.container,
-.captcha p {
-  outline: none;
-  font-size: 11px;
-  font-weight: bolder;
-  line-height: 1.5;
-  margin-top: -5px;
-}
-
 .container .captcha a {
   height: 20px;
   outline: none;
@@ -201,6 +192,8 @@ footer p {
   margin-top: 70px;
   margin-left: -30px;
   margin-bottom: -30px;
+  font-size: 10px;
+  color: grey;
   width: 410px;
   height: 30px;
   background-color: #eceef1;
