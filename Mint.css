@@ -162,13 +162,23 @@ footer p {
   color: #757575;
   font-size: 12px;
   font-weight: normal;
+}
+
+.footer-form {
+  margin-top: 25px;
+}
+
+.footer-form p {
+  margin-top: 0;
   font-style: italic;
+  font-size: 14px;
 }
 
 .footer-form a {
   margin: auto;
   text-align: left;
   color: blue;
+  font-size: 14px;
 }
 
 .footer-form span {
@@ -176,6 +186,22 @@ footer p {
   font-size: 12px;
   font-weight: normal;
   font-style: italic;
+}
+
+.container .captcha p {
+  box-sizing: border-box;
+  margin-top: 70px;
+  margin-left: -40px;
+  margin-bottom: -30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: grey;
+  width: 480px;
+  height: 40px;
+  background-color: #eceef1;
 }
 
 .container .captcha a {
@@ -186,17 +212,8 @@ footer p {
   line-height: 1.5;
 }
 
-.container,
-.captcha {
-  box-sizing: border-box;
-  margin-top: 70px;
-  margin-left: -30px;
-  margin-bottom: -30px;
-  font-size: 10px;
-  color: grey;
-  width: 410px;
-  height: 30px;
-  background-color: #eceef1;
+.end-page {
+  margin-top: 3px;
 }
 
 .end-page ul {
