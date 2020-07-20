@@ -68,21 +68,23 @@ main {
   padding-top: 80px;
 }
 
-.link ul {
-  list-style-type: none;
+.list1 ul li {
   display: inline;
 }
 
-.link ul li img {
+.list1 img {
   width: 30px;
   height: 30px;
-  margin-top: 2px;
-  padding-top: 2px;
+  padding-top: 5px;
+  border-radius: 50px;
 }
 
-.link span {
-  text-align: center;
-  margin-bottom: -10px;
+.list1 span {
+  margin-right: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding-top: -20px;
 }
 
 form {
