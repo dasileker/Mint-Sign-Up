@@ -68,6 +68,14 @@ main {
   padding-top: 80px;
 }
 
+.end-page ul,
+li {
+  margin-left: 10px;
+  padding-left: 10px;
+  text-align: center;
+  color: #505050;
+}
+
 .list1 ul li {
   display: inline;
 }
@@ -221,12 +229,4 @@ footer p {
 .end-page ul {
   list-style-type: none;
   display: inline;
-}
-
-.end-page ul,
-li {
-  margin-left: 10px;
-  padding-left: 10px;
-  text-align: center;
-  color: #505050;
 }
