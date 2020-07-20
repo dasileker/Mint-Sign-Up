@@ -17,12 +17,14 @@ footer,
 ul,
 li,
 a {
-  color: green;
+  color: grey;
   padding-right: 5px;
+  text-decoration: none;
 }
 
 header a {
   color: #0077c5;
+  text-decoration: none;
 }
 
 header button {
@@ -66,6 +68,23 @@ main {
   padding-top: 80px;
 }
 
+.link ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.link ul li img {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  padding-top: 2px;
+}
+
+.link span {
+  text-align: center;
+  margin-bottom: -10px;
+}
+
 form {
   margin: auto;
   padding: 30px;
@@ -97,6 +116,7 @@ form a {
   margin-top: -2px;
   color: #0077c5;
   font-size: 12px;
+  text-decoration: none;
 }
 
 form label {
@@ -146,6 +166,7 @@ footer p {
 }
 
 .footer-form a {
+  margin: auto;
   text-align: left;
   color: blue;
 }
@@ -160,9 +181,10 @@ footer p {
 .container,
 .captcha p {
   outline: none;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bolder;
   line-height: 1.5;
+  margin-top: -5px;
 }
 
 .container .captcha a {
@@ -175,11 +197,13 @@ footer p {
 
 .container,
 .captcha {
+  box-sizing: border-box;
   margin-top: 70px;
   margin-left: -30px;
-  margin-bottom: -29px;
+  margin-bottom: -30px;
   width: 410px;
-  background-color: gray;
+  height: 30px;
+  background-color: #eceef1;
 }
 
 .end-page ul {
