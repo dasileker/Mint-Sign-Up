@@ -90,6 +90,13 @@ li {
   background-image: none;
 }
 
+.footer-form span {
+  color: #757575;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+}
+
 .list1 a span {
   margin-right: 10px;
   margin-top: 20px;
@@ -196,11 +203,8 @@ footer p {
   font-size: 14px;
 }
 
-.footer-form span {
-  color: #757575;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: italic;
+.end-page p {
+  margin-top: -17px;
 }
 
 .container .captcha p {
