@@ -186,7 +186,8 @@ footer {
 }
 
 footer p {
-  margin-bottom: -20px;
+  margin-top: -17px;
+  margin-bottom: 20px;
   color: #757575;
   font-size: 12px;
   font-weight: normal;
@@ -209,14 +210,14 @@ footer p {
   font-size: 14px;
 }
 
-.end-page p {
-  margin-top: -17px;
+.container .captcha {
+  width: 110px;
 }
 
 .container .captcha p {
   box-sizing: border-box;
   margin-top: 70px;
-  margin-left: -40px;
+  margin-left: -30px;
   margin-bottom: -30px;
   padding-top: 15px;
   padding-right: 30px;
@@ -224,7 +225,7 @@ footer p {
   font-size: 12px;
   font-weight: normal;
   color: grey;
-  width: 480px;
+  width: 410px;
   height: 40px;
   background-color: #eceef1;
 }
