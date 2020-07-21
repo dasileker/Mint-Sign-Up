@@ -76,23 +76,28 @@ li {
   color: #505050;
 }
 
-.list1 ul li {
-  display: inline;
+.list1 {
+  display: block;
+  margin-bottom: 20px;
 }
 
-.list1 img {
-  width: 30px;
-  height: 30px;
-  padding-top: 5px;
-  border-radius: 50px;
+.list1 a img {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-radius: 50%;
+  background-image: none;
 }
 
-.list1 span {
-  margin-right: 0;
+.list1 a span {
+  margin-right: 10px;
+  margin-top: 20px;
+  padding-bottom: -20px;
   outline: none;
+  text-align: center;
   box-sizing: border-box;
   font-size: 20px;
-  padding-top: -20px;
 }
 
 form {
