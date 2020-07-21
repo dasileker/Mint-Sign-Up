@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/dasileker/Mint-Sign-Up/mint-page/Mint.html)
+[Live Demo Link](https://rawcdn.githack.com/dasileker/Mint-Sign-Up/d4625d6fc6bdf53558208fba7a2c04ee81699da9/Mint.html)
 
 
 
